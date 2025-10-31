@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisdom - Whispering Soil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="index.html">
+                    <span class="brand-icon">🌱</span>
+                    <span class="brand-text">Whispering Soil</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                
+                <li class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Learn<span class="arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="soil-types.html">Soil Types</a></li>
+                        <li><a href="soil-composition.html">Composition</a></li>
+                        <li><a href="soil-health.html">Soil Health</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Farming<span class="arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="agriculture.html">Agriculture</a></li>
+                        <li><a href="crop-guide.html">Crop Guide</a></li>
+                        <li><a href="conservation.html">Conservation</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="articles.html" class="nav-link">Articles</a></li>
+                <li><a href="wisdom.html" class="nav-link active">Wisdom</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <span id="userWelcome" class="user-welcome"></span>
+                <a href="login.html" class="header-login-btn" id="topLoginBtn">Login / Register</a>
+            </div>
+            
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header wisdom-header">
+        <div class="container">
+            <h1>Soil Science Wisdom</h1>
+            <p>Learn from expert videos and educational content</p>
+        </div>
+    </section>
+
+    <section class="page-content">
+        <div class="container">
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-wrapper" data-video-id="xFqecEtdGZ0">
+                        <img src="https://img.youtube.com/vi/xFqecEtdGZ0/maxresdefault.jpg" alt="Understanding Soil Formation">
+                    </div>
+                    <div class="video-info">
+                        <h3>Understanding Soil Formation</h3>
+                        <p>Learn how soil is formed over thousands of years through weathering and biological processes.</p>
+                        <a href="https://www.youtube.com/watch?v=xFqecEtdGZ0" target="_blank" class="watch-on-youtube">Watch on YouTube →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper" data-video-id="k_RiNPKJNdE">
+                        <img src="https://img.youtube.com/vi/k_RiNPKJNdE/maxresdefault.jpg" alt="Soil Types and Their Properties">
+                    </div>
+                    <div class="video-info">
+                        <h3>Soil Types and Their Properties</h3>
+                        <p>Explore different soil types including sandy, clay, loam, and their unique characteristics.</p>
+                        <a href="https://www.youtube.com/watch?v=k_RiNPKJNdE" target="_blank" class="watch-on-youtube">Watch on YouTube →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper" data-video-id="EBb7Y0_5I4o">
+                        <img src="https://img.youtube.com/vi/EBb7Y0_5I4o/maxresdefault.jpg" alt="The Importance of Soil Health">
+                    </div>
+                    <div class="video-info">
+                        <h3>The Importance of Soil Health</h3>
+                        <p>Discover why healthy soil is crucial for food production and environmental sustainability.</p>
+                        <a href="https://www.youtube.com/watch?v=EBb7Y0_5I4o" target="_blank" class="watch-on-youtube">Watch on YouTube →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper" data-video-id="OiLITHMVcRw">
+                        <img src="https://img.youtube.com/vi/OiLITHMVcRw/maxresdefault.jpg" alt="Composting Basics for Beginners">
+                    </div>
+                    <div class="video-info">
+                        <h3>Composting Basics for Beginners</h3>
+                        <p>Step-by-step guide to creating nutrient-rich compost for your garden.</p>
+                        <a href="https://www.youtube.com/watch?v=OiLITHMVcRw" target="_blank" class="watch-on-youtube">Watch on YouTube →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper" data-video-id="93y8C30Y4U0">
+                        <img src="https://img.youtube.com/vi/93y8C30Y4U0/maxresdefault.jpg" alt="Soil Testing and Analysis">
+                    </div>
+                    <div class="video-info">
+                        <h3>Soil Testing and Analysis</h3>
+                        <p>Learn how to test your soil and interpret results for better crop management.</p>
+                        <a href="https://www.youtube.com/watch?v=93y8C30Y4U0" target="_blank" class="watch-on-youtube">Watch on YouTube →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper" data-video-id="qtd_TeBYy8s">
+                        <img src="https://img.youtube.com/vi/qtd_TeBYy8s/maxresdefault.jpg" alt="Sustainable Farming Practices">
+                    </div>
+                    <div class="video-info">
+                        <h3>Sustainable Farming Practices</h3>
+                        <p>Explore regenerative agriculture techniques that improve soil health.</p>
+                        <a href="https://www.youtube.com/watch?v=qtd_TeBYy8s" target="_blank" class="watch-on-youtube">Watch on YouTube →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper" data-video-id="gYXoXiQ3vC0">
+                        <img src="https://img.youtube.com/vi/gYXoXiQ3vC0/maxresdefault.jpg" alt="Earthworms and Soil Fertility">
+                    </div>
+                    <div class="video-info">
+                        <h3>Earthworms and Soil Fertility</h3>
+                        <p>Understand the vital role earthworms play in maintaining healthy, fertile soil.</p>
+                        <a href="https://www.youtube.com/watch?v=gYXoXiQ3vC0" target="_blank" class="watch-on-youtube">Watch on YouTube →</a>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-wrapper" data-video-id="vG1H9Sg4lBM">
+                        <img src="https://img.youtube.com/vi/vG1H9Sg4lBM/maxresdefault.jpg" alt="Cover Crops for Soil Health">
+                    </div>
+                    <div class="video-info">
+                        <h3>Cover Crops for Soil Health</h3>
+                        <p>Learn how cover crops protect and enrich soil between growing seasons.</p>
+                        <a href="https://www.youtube.com/watch?v=vG1H9Sg4lBM" target="_blank" class="watch-on-youtube">Watch on YouTube →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🌱 Whispering Soil</h3>
+                    <p>Your comprehensive resource for understanding soil science and sustainable practices.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="soil-types.html">Soil Types</a></li>
+                        <li><a href="crop-guide.html">Crop Guide</a></li>
+                        <li><a href="agriculture.html">Agriculture</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Learn More</h4>
+                    <ul>
+                        <li><a href="conservation.html">Conservation</a></li>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="wisdom.html">Wisdom</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Whispering Soil. Educational resource for soil science learning.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            const hamburger = document.querySelector('.hamburger');
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        }
+        
+        document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
+            toggle.addEventListener('click', function(e) {
+                if (window.innerWidth <= 992) {
+                    e.preventDefault();
+                    this.parentElement.classList.toggle('active');
+                }
+            });
+        });
+        
+        document.querySelectorAll('.video-wrapper').forEach(wrapper => {
+            wrapper.addEventListener('click', function() {
+                const videoId = this.getAttribute('data-video-id');
+                const iframe = document.createElement('iframe');
+                iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?autoplay=1`);
+                iframe.setAttribute('frameborder', '0');
+                iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+                iframe.setAttribute('allowfullscreen', 'true');
+                this.innerHTML = '';
+                this.appendChild(iframe);
+            });
+        });
+    </script>
+    <script src="auth.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
